@@ -1,0 +1,65 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 25px auto;
+}
+
+.bt_sair{
+    margin: 0 20px;
+}
+
+form a input[type="Button"]{
+    width: 100%;
+}
+.periodo{
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+table{
+    width: 100%;
+    background-color: aqua;
+}
+thead{
+    border: 2px linear black;
+}
+tbody{
+    border: 1px linear black;
+    background-color: aquamarine;
+    margin: auto 0;
+}
+
+tbody tr:hover{
+    background-color: beige;
+}
+.nota{
+    width: 80%;
+    background-color: antiquewhite;
+    padding: 2px;
+    margin: 20px auto;
+}
+.nota p.conteudo{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(246, 250, 225);
+    text-indent: 10px;
+}
+.nota .top{
+    width: 90%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 15pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
